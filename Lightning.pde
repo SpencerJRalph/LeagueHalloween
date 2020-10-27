@@ -2,7 +2,7 @@ import ddf.minim.*;
 Minim minim = new Minim(this); 
 
 public class Lightning {
-  float chaos = 0.25;
+  float chaos = 0.5;
   ArrayList<PVector> points;
   AudioPlayer thunder = null;
   boolean lightningFlash = false;
